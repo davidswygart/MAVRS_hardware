@@ -1,0 +1,368 @@
+{
+  "uuid": "7f7ecd47571f88727ab4d98a748c1df2",
+  "path": "Offline/IR%20LED%20stick",
+  "name": "IR LED stick",
+  "content": "",
+  "created_at": "2024-07-03 16:24:49",
+  "updated_at": "2024-11-27 12:35:13",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "e972dfc49107be8e0071b1e3174f94c8",
+      "title": "Switch",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f80e29816fd30bb295222fb4f47bcc25": 1,
+        "b210af5a1436310a86e8b108e2e5a90b": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "M2.5*H6.4*D5",
+          6,
+          "SCREW-SMD_BD5.0-D2.5",
+          "5V_BOT,5V_TOP,CNT_BOT1,CNT_TOP1,GND_BOT1,GND_TOP1",
+          {
+            "Manufacturer Part": "M2.5*H6.4*D5",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900109989"
+          }
+        ],
+        [
+          "JNJ-LTJI0102W140",
+          20,
+          "LED-SMD_L3.5-W2.8-FD_WHITE",
+          "LED1_1,LED1_2,LED2_1,LED2_2,LED3_1,LED3_2,LED4_1,LED4_2,LED5_1,LED5_2,LED6_1,LED6_2,LED7_1,LED7_2,LED8_1,LED8_2,LED9_1,LED9_2,LED10_1,LED10_2",
+          {
+            "Manufacturer Part": "JNJ-LTJI0102W140",
+            "Manufacturer": "JNJ OPTOELECTRONICS(强生光电)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7529186"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "R0603",
+          "PULLUP",
+          {
+            "Manufacturer Part": "0603WAF1002T5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C25804"
+          }
+        ],
+        [
+          "100Ω",
+          20,
+          "R0805",
+          "R1_1,R1_2,R2_1,R2_2,R3_1,R3_2,R4_1,R4_2,R5_1,R5_2,R6_1,R6_2,R7_1,R7_2,R8_1,R8_2,R9_1,R9_2,R10_1,R10_2",
+          {
+            "Manufacturer Part": "0805W8F1000T5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C17408"
+          }
+        ],
+        [
+          "AO3400A",
+          1,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "SWITCH",
+          {
+            "Manufacturer Part": "AO3400A",
+            "Manufacturer": "AOS",
+            "Supplier": "LCSC",
+            "Supplier Part": "C20917"
+          }
+        ]
+      ],
+      "updateTime": 1720129334,
+      "createTime": 1720038290,
+      "histories": [],
+      "created_at": "2024-07-03 16:24:50",
+      "updated_at": "2024-07-04 17:42:14"
+    },
+    {
+      "uuid": "3da50f4d1aad8bb4c8d63271482b13d1",
+      "title": "LEDs",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7cae9ab7891e48f11e47d23718393c41": 24,
+        "22c4ab8a3503459b842edf28952a9a1e": 24
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "M2.5*H6.4*D5",
+          3,
+          "SCREW-SMD_BD5.0-D2.5",
+          "5V,CNT,GND",
+          {
+            "Manufacturer Part": "M2.5*H6.4*D5",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900109989"
+          }
+        ],
+        [
+          "JNJ-LTJI0102W140",
+          24,
+          "LED-SMD_L3.5-W2.8-FD_WHITE",
+          "LED1_1,LED1_2,LED2_1,LED2_2,LED3_1,LED3_2,LED4_1,LED4_2,LED5_1,LED5_2,LED6_1,LED6_2,LED7_1,LED7_2,LED8_1,LED8_2,LED9_1,LED9_2,LED10_1,LED10_2,LED11_1,LED11_2,LED11_3,LED11_4",
+          {
+            "Manufacturer Part": "JNJ-LTJI0102W140",
+            "Manufacturer": "JNJ OPTOELECTRONICS(强生光电)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7529186"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "R0603",
+          "PULLUP",
+          {
+            "Manufacturer Part": "0603WAF1002T5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C25804"
+          }
+        ],
+        [
+          "100Ω",
+          24,
+          "R0805",
+          "R1_1,R1_2,R2_1,R2_2,R3_1,R3_2,R4_1,R4_2,R5_1,R5_2,R6_1,R6_2,R7_1,R7_2,R8_1,R8_2,R9_1,R9_2,R10_1,R10_2,R11_1,R11_2,R12_1,R12_2",
+          {
+            "Manufacturer Part": "0805W8F1000T5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C17408"
+          }
+        ],
+        [
+          "AO3400A",
+          1,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "SWITCH",
+          {
+            "Manufacturer Part": "AO3400A",
+            "Manufacturer": "AOS",
+            "Supplier": "LCSC",
+            "Supplier Part": "C20917"
+          }
+        ]
+      ],
+      "updateTime": 1720143765,
+      "createTime": 1720122138,
+      "histories": [],
+      "created_at": "2024-07-04 15:42:18",
+      "updated_at": "2024-07-04 21:42:45"
+    },
+    {
+      "uuid": "4ea3062f1bc0a22697a231c82268095c",
+      "title": "IO",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "bf643e2fd3c54b01993e7c8601d1fd2b": 3
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "M2.5*H6.4*D5",
+          3,
+          "SCREW-SMD_BD5.0-D2.5",
+          "5V,CNT,GND",
+          {
+            "Manufacturer Part": "M2.5*H6.4*D5",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900109989"
+          }
+        ],
+        [
+          "JNJ-LTJI0102W140",
+          20,
+          "LED-SMD_L3.5-W2.8-FD_WHITE",
+          "LED1_1,LED1_2,LED2_1,LED2_2,LED3_1,LED3_2,LED4_1,LED4_2,LED5_1,LED5_2,LED6_1,LED6_2,LED7_1,LED7_2,LED8_1,LED8_2,LED9_1,LED9_2,LED10_1,LED10_2",
+          {
+            "Manufacturer Part": "JNJ-LTJI0102W140",
+            "Manufacturer": "JNJ OPTOELECTRONICS(强生光电)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7529186"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "R0603",
+          "PULLUP",
+          {
+            "Manufacturer Part": "0603WAF1002T5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C25804"
+          }
+        ],
+        [
+          "100Ω",
+          20,
+          "R0805",
+          "R1_1,R1_2,R2_1,R2_2,R3_1,R3_2,R4_1,R4_2,R5_1,R5_2,R6_1,R6_2,R7_1,R7_2,R8_1,R8_2,R9_1,R9_2,R10_1,R10_2",
+          {
+            "Manufacturer Part": "0805W8F1000T5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C17408"
+          }
+        ],
+        [
+          "AO3400A",
+          1,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "SWITCH",
+          {
+            "Manufacturer Part": "AO3400A",
+            "Manufacturer": "AOS",
+            "Supplier": "LCSC",
+            "Supplier Part": "C20917"
+          }
+        ]
+      ],
+      "updateTime": 1720129695,
+      "createTime": 1720129331,
+      "histories": [],
+      "created_at": "2024-07-04 17:42:11",
+      "updated_at": "2024-07-04 17:48:15"
+    },
+    {
+      "uuid": "03a7be10566bef52b70043f7fca5b8ca",
+      "puuid": "7f7ecd47571f88727ab4d98a748c1df2",
+      "title": "PCB_IR LED stick",
+      "filename": "PCB_IR LED stick.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e43e1b012d374d1cada83a6a71513409": 24,
+        "b60f399a7a7e41848b2be1eb49c79141": 24,
+        "398691f1f785460098bbe5ee6590333c": 1,
+        "b3b82869fa924bae820e3a6cfb44d689": 1,
+        "ef923dc881ca4ddcae46bbf13690d107": 3
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "MX301-5.0-03P-BU01-CU-Y-A",
+          2,
+          "CONN-TH_3P-P5.0-MX301-5.0-03P-BU01-CU-Y-A",
+          "BOTTOM_CONNECT,TOP_CONNECT",
+          {
+            "Manufacturer Part": "MX301-5.0-03P-BU01-Cu-Y-A",
+            "Manufacturer": "MAX(迈旭)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5188423"
+          }
+        ],
+        [
+          "JNJ-LTJI0102W140",
+          20,
+          "LED-SMD_L3.5-W2.8-FD_WHITE",
+          "LED1_1,LED1_2,U2,U4,U5,U6,U7,U8,U9,U10,U11,U12,U13,U14,U15,U16,U17,U18,U19,U20",
+          {
+            "Manufacturer Part": "JNJ-LTJI0102W140",
+            "Manufacturer": "JNJ OPTOELECTRONICS(强生光电)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7529186"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "R0603",
+          "PULLUP",
+          {
+            "Manufacturer Part": "0603WAF1002T5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C25804"
+          }
+        ],
+        [
+          "100Ω",
+          20,
+          "R0805",
+          "R1_1,R1_2,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21",
+          {
+            "Manufacturer Part": "0805W8F1000T5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C17408"
+          }
+        ],
+        [
+          "AO3400A",
+          1,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "SWITCH",
+          {
+            "Manufacturer Part": "AO3400A",
+            "Manufacturer": "AOS",
+            "Supplier": "LCSC",
+            "Supplier Part": "C20917"
+          }
+        ]
+      ],
+      "updateTime": 1732728913,
+      "createTime": 1720124523,
+      "histories": [],
+      "created_at": "2024-07-04 16:22:03",
+      "updated_at": "2024-11-27 12:35:13"
+    }
+  ],
+  "sort": [
+    "e972dfc49107be8e0071b1e3174f94c8",
+    "3da50f4d1aad8bb4c8d63271482b13d1",
+    "4ea3062f1bc0a22697a231c82268095c"
+  ],
+  "title": "IR LED stick",
+  "foldername": "IR LED stick",
+  "schfilename": "IR LED stick.json",
+  "schfilemtime": 1720143765099
+}
